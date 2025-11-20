@@ -17,3 +17,5 @@ For both development and production, this project uses Docker and Docker Compose
 This website runs locally on my homelab, which uses the Proxmox virtualization stack. It's deployed in an LXC with Docker and a Github Actions runner to ensure the latest deployed version is always up.
 
 Regrettably, I've needed to make a sacrifice of "selfhosted-ness" for security reasons. While my homelab has access to a public IP address, I have chosen to not point my site directly to that to preserve some semblance of privacy and security. Instead, I use a Cloudflare Tunnel to privately and securely proxy website traffic to my local network. This has the added benefit of letting me not worry about DDoS/vulnerabilities, as the only exposed ports and services are (hopefully!) not vulnerable to attack.
+
+You can find more information about my homelab [here](https://github.com/adammakesthingsdev/homelab).
